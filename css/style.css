@@ -218,6 +218,7 @@ ul li{
    right: 0;
    background-image: linear-gradient(var(--background-elevated-highlight) 2%, var(--background-elevated-press)10%,var(--background-base)80%);
    float:right;
+     overflow-x:hidden;
  }
 
 
