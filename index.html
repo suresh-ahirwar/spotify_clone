@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotifyclone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+
+</style>
+
+<body>
+    <div class="main_container">
+        <div class="left_container">
+            <header>
+                <div class="left_1">
+                    <div class="logo_1"><a href="#"><i class="fa-brands fa-spotify"></i><span>Spotify</span></a></div>
+
+                    <div class="logo_2">
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="logo_3 logo_2">
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i> <span>Search</span></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </header>
+            <aside>
+                <div class="left_2">
+                    <div class="content_1">
+                        <div class="library_logo" title="Collapse Your Library"><a href="#"><i class="fa-solid fa-list" ></i><span>Your
+                                    Library</span></a></div>
+                        <div><a href="#" <span><i class="fa-solid fa-plus" title="Create Playlist Or Folder"></i></span></a></div>
+                    </div>
+
+                    <div class="content_2">
+                        <div class="p_1">
+                            <div class="para_1">Create Your First Playlist</div>
+                            <div class="para2">It's easy, we'll help you</div>
+                            <div class="btn_playlist"><button type="button"
+                                    style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Create
+                                    Playlist</button></div>
+                        </div>
+
+                        <div class="p_2">
+                            <div class="para_2">Let's Find Some Podcasts To Follow</div>
+                            <div class="para3">We'll keep you updated on new episodes</div>
+                            <div class="btn_playlist"><button type="button"
+                                    style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Browse
+                                    Podcasts</button></div>
+                        </div>
+                    </div>
+
+                    <div class="content_3">
+                        <ul>
+                            <li>Legal</li>
+                            <li>Safety&PrivacyCenter</li>
+                            <li>Privacy Policy</li>
+                            <li>Cookies</li>
+                            <li>About Ads</li>
+                            <li>Accessibility</li>
+                            <li>Cookies</li>
+                        </ul>
+                    </div>
+                    <div class="content_4">
+                        <span><a href="#"><i class="fa-solid fa-globe" style="color: #cac1f3;"></i>&nbsp;
+                                <span>English</span></a></span>
+                    </div>
+
+                </div>
+            </aside>
+        </div>
+        <div class="right_container">
+
+            <header class="header_1">
+                <div class="scroll_icon">
+                    <div class="nav_icon"><i class="fa-solid fa-less-than"></i></div>
+                    <div class="nav_icon"><i class="fa-solid fa-greater-than"></i></div>
+                </div>
+                <div class="right_content">
+                    <div class="sing_up"><button type="button">Sign up</button></div>
+                    <div class="login"><button type="button">Log in</button></div>
+                </div>
+            </header>
+
+            <main>
+                <section class="popular_artists">
+                    <div class="image_desc">
+                        <div class="artist_para">Popular artists</div>
+                        <div><a href="#">show all</a></div>
+                    </div>
+
+                    <div class="artist_images">
+                        
+                        <div class="images">
+                            <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca">
+                            <h3>Pritam</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images">
+                            <img src="./assets/arjeet_image.jpg">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images">
+                            <img src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c">
+                            <h3>A.R.Rahman </h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images">
+                            <img src="https://i.scdn.co/image/ab67616100005174a038d7d87f8577bbb9686bd3">
+                            <h3>Sachin-Jigar</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images">
+                            <img src="https://i.scdn.co/image/ab676161000051740f0be2054fe9594026a6b843">
+                            <h3>Anirudh</h3>
+                            <h3>Ravichander</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images">
+                            <img src="https://i.scdn.co/image/ab67616100005174fb13d10be20fdcb5a670f551">
+                            <h3>Vishal Mishra</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+
+                        <div class="images">
+                            <img src="https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84">
+                            <h3>Atif Aslam</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                      
+                    </div>
+
+                    <div class="image_desc">
+                        <div class="artist_para">Popular albums</div>
+                        <div><a href="#">show all</a></div>
+                    </div>
+
+                    <div class="artist_images">
+                        <div class="images_1 redirect-btn">
+                            <img src="https://i.scdn.co/image/ab67616d00001e021e63de6489803c2b39e7f8e5">
+                            <h3>Love hotel</h3>
+                            <p>Leftovermax</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3">
+                            <h3>Aashiqui 2</h3>
+                           </span>Mithun,Ankit Tiwari,</span><p>Jeet Gannguli</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03">
+                            <h3>Ek The Raja</h3>
+                            <p>Badshah</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://i.scdn.co/image/ab67616d00001e025f3ede47954a93aa03efe5f9">
+                            <h3>ANIMAL</h3>
+                           <span>Manan Bhardwai,</span> <p> </p>Vishal Mishra,Jani</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02d5f4378b1ffc9119fdc7306d">
+                            <h3>Sajni("From Lapata Ladies")</h3>
+                           <span>Ram sampath,Arijit</span><p>Singh,Prashant...</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://i.scdn.co/image/ab67616d00001e021d1cc2e40d533d7bcebf5dae">
+                            <h3>Moosetape</h3>
+                            <p>Shidu Moosewala</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src=https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36>
+                            <h3>Moosetape</h3>
+                            <p>Shidu Moosewala</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="image_desc">
+                        <div class="artist_para">Popular Radio</div>
+                        <div><a href="#">show all</a></div>
+                    </div>
+
+                    <div class="artist_images">
+                        <div class="images_1">
+                            <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/4YRxDV8wJFPHPTeXepOstw/en-GB">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/3gBKY0y3dFFVRqicLnVZYz/en-GB">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/1mYsTxnqsietFxj1OgoGbG/en-GB">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/2FKWNmZWDBZR4dE5KX4plR/en-GB">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/70B80Lwx2sxti0M1Ng9e8K/en-GB">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/4fEkbug6kZzzJ8eYX6Kbbp/en-GB">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                       
+                        <div class="images_1">
+                            <img src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/0oOet2f43PA68X5RxKobEy/en">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                    </div>
+
+                    <div class="image_desc">
+                        <div class="artist_para">Feachered Charts</div>
+                        <div><a href="#">show all</a></div>
+                    </div>
+
+                    <div class="artist_images">
+                        <div class="images_1">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_us_default.jpg">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_us_default.jpg">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_global_default.jpg">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_us_default.jpg">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                       
+                         <div class="images_1">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_us_default.jpg">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                    </div>
+
+                    <div class="image_desc">
+                        <div class="artist_para">Zzzzzzz</div>
+                        <div><a href="#">show all</a></div>
+                    </div>
+
+                    <div class="artist_images">
+                        <div class="images_1">
+                            <img src="https://i.scdn.co/image/ab67706f0000000291b4de873c02ce48d2cf31dc">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://i.scdn.co/image/ab67706f00000002ae49d8c6cc9122ec876ebc22">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://i.scdn.co/image/ab67706f00000002e316f8c02291346eb98785dd">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://i.scdn.co/image/ab67706f000000026568c14bc8c422d37b67a393">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://i.scdn.co/image/ab67706f000000022700584218ac0f580f5410fc">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://i.scdn.co/image/ab67706f00000002523900c130e847665a66b9d8">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+
+                        <div class="images_1">
+                            <img src="https://i.scdn.co/image/ab67706f000000025b4d326fee8531fe32efe166">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                      
+                    </div>
+
+                    <div class="image_desc">
+                        <div class="artist_para">Trending episodes</div>
+                        <div><a href="#">show all</a></div>
+                    </div>
+
+                    <div class="artist_images">
+                        <div class="images_1">
+                            <img src="https://i.scdn.co/image/ab67656300005f1f9f5d8dab58a909ef23fee583">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://i.scdn.co/image/ab67656300005f1f099a357ed0a2a39424f2903d">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://i.scdn.co/image/ab67656300005f1f9d2abc777125c182cf99b60f">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://i.scdn.co/image/ab67656300005f1f36dbb0b2d65004488fcc322f">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://i.scdn.co/image/ab67656300005f1f6807eaee16197dac1dd840e8">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        <div class="images_1">
+                            <img src="https://i.scdn.co/image/5752f200206ea03cb88b18201e8ce15febb2598b">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                        
+                        <div class="images_1">
+                            <img src="https://i.scdn.co/image/ab67656300005f1f977f6de2920c47bb781ed6e5">
+                            <h3>Arijit Singh</h3>
+                            <p>Artist</p>
+                            <div id="play_btn" class="play_btn"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <footer class="footer_container">
+                <div class="list">
+                    <ul>
+                        <li id="highlight"><a href="#"></a>Company</li>
+                        <li><a href="#"></a>About</li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">For the Record</a></li>
+                    </ul>
+                </div>
+
+                <div class="list">
+                    <ul>
+                        <li id="highlight"><a href="#">Communities</a></li>
+                        <li><a href="#">For Artists</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#"></a>Vendors</li>
+                    </ul>
+                </div>
+
+                <div class="list">
+                    <ul>
+                        <li id="highlight"><a href="#"></a>Useful links</li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Free Mobile App</a></li>
+                    </ul>
+                </div>
+
+                <div class="list">
+                    <ul>
+                        <li id="highlight"><a href="#"></a>Spotify Plans</li>
+                        <li><a href="#">Premium Individual</a></li>
+                        <li><a href="#">Premium Duo</a></li>
+                        <li><a href="#">Premium Family</a></li>
+                        <li><a href="#">Premium Student</a></li>
+                        <li><a href="#">Spotify Free</a></li>
+                    </ul>
+                </div>
+
+                <div class="list">
+                    <div class="logos">
+                        <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                        <div class="icon"><i class="fa-brands fa-twitter"></i></div>
+                        <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+                    </div>
+                </div>
+            </footer>
+            <hr>
+            <div class="copyright">
+                <div> &copy;</div>
+                <div>2024</div>
+                <div>Spotify</div>
+                <div>AB</div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
