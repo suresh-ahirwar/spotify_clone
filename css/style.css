@@ -240,14 +240,15 @@ position: sticky;
  .scroll_icon{
     display: flex;
    margin-left: 2rem;
-   gap:1.5rem
+   gap:1.2rem;
+   float:left;
  }
  
  .right_content{
     display: flex;
-    margin-right: 2rem;
+    margin-right: 1rem;
     gap:1.5rem;
-    
+    float:right;
  }
 
  .nav_icon i{
