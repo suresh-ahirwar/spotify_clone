@@ -476,7 +476,7 @@ position: sticky;
    gap:3px;
   }
       body{
-   overflow: hidden;
+   overflow: scroll;
   }
    }
      
