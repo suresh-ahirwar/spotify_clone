@@ -475,9 +475,6 @@ position: sticky;
    float: left;
    gap:3px;
   }
-      body{
-   overflow: scroll;
-  }
-   }
+ }
      
  
