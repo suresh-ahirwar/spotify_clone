@@ -266,7 +266,7 @@ position: sticky;
     font-size: 1.2rem;
     margin-top: .5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   
+   border: 1px solid white;
  }
 
  
@@ -455,8 +455,29 @@ position: sticky;
    }
  }
  @media screen  and (max-width:400px){
-   .login button{
+/*     .login button{
       font-size: 10px;
+   } */
+   .footer_container{
+      gap:15px;
+  }
+  .sing_up button[type="button"]{
+   font-size: 10px;
+   text-wrap: nowrap;
+  }
+  .login button[type="button"]{
+   font-size: 10px;
+   text-wrap: nowrap;
+   float: right;
+   
+  }
+  .scroll_icon{
+   float: left;
+   gap:3px;
+  }
+      body{
+   overflow: hidden;
+  }
    }
- }
+     
  
