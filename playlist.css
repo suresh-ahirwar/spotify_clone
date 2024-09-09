@@ -215,3 +215,12 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .c1{
     font-size: .8rem;
 }
+@media screen  and (max-width:415px){
+    .artist_para {
+       text-wrap: nowrap;
+       font-size: medium;
+    }
+    .footer_container{
+        gap:15px;
+    }
+  }
